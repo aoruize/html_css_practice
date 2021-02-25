@@ -1,0 +1,26 @@
+h1 {
+    margin: 50px;
+    background-color: aqua;
+}
+
+.padding {
+    margin: 0px;
+    padding: 50px;
+    background-color: cadetblue;
+}
+
+button {
+    margin: 5rem;
+    padding: 10rem;
+    background-color: aquamarine;
+}
+
+.tall {
+    padding: 10rem 5rem;
+    background-color: coral;
+}
+
+.wide {
+    padding: 5rem 10rem;
+    background-color: cornflowerblue;
+}
