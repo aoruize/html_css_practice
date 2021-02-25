@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.intro img {
+    height: 50rem
+}
+
+header {
+    background: lightgrey;
+    position: sticky;
+    top: 0px;
+    box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.329)
+}
+nav a {
+    color: black;
+    text-decoration: none;
+}
+nav ul {
+    display: flex;
+    width: 80%;
+    padding: 2rem;
+    margin: auto;
+    min-height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.hero {
+    min-height: 90vh;
+    background-image: url("img/laptop.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero h2 {
+    padding: 2vh;
+    text-align: center;
+    margin: 2rem;
+}
+
+.hero button {
+    padding: 1rem 2rem;
+    background: lightgrey;
+    border-style: none;
+}
+
+.hero button:hover {
+    background: grey;
+    color: white;
+    cursor: pointer;
+}
+
+.hero button:active {
+    background: rgb(153, 141, 119);
+    color:white;
+    font-size: 1.2rem;
+}
+
+.intro { 
+    display: flex;
+    flex-wrap: wrap;
+    height: 50vh;
+}
+
+.intro-img {
+    flex: 1 1 20rem;
+}
+
+.intro-img img {
+    width: 100%;
+}
+
+.intro-text {
+    flex: 1 1 20rem;
+    background: rgb(216, 196, 159);
+    padding: 8rem;
+}
+
+.intro-text h2 {
+    padding-bottom: 2rem;
+}
